@@ -1,8 +1,8 @@
 import request from 'supertest';
 import { app } from '../src/app';
-import { AppDataSource } from '../src/data-source';
+import { AppDataSource } from '../src/data-source.ts';
 import jwt from 'jsonwebtoken';
-import { User } from "../src/entity/User";
+import { User } from "../src/entity/User.ts";
 
 describe('Auth Controller', () => {
   let password = ''

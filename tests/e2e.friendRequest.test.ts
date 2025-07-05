@@ -1,8 +1,8 @@
 import request from 'supertest';
 import { app } from '../src/app';
-import { AppDataSource } from '../src/data-source';
-import { User } from '../src/entity/User';
-import { FriendRequest } from '../src/entity/FriendRequest';
+import { AppDataSource } from '../src/data-source.ts';
+import { User } from '../src/entity/User.ts';
+import { FriendRequest } from '../src/entity/FriendRequest.ts';
 describe('FriendRequestController', () => {
   let token: string;
   let secondToken: string;

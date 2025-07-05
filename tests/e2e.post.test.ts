@@ -1,7 +1,7 @@
 import request from 'supertest';
 import { app } from '../src/app';
-import { AppDataSource } from '../src/data-source';
-import { UserPosts } from "../src/entity/Post";
+import { AppDataSource } from '../src/data-source.ts';
+import { UserPosts } from "../src/entity/Post.ts";
 
 describe('Post', () => {
   let token = '';

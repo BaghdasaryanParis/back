@@ -1,7 +1,7 @@
 import request from 'supertest';
 import { app } from '../src/app';
-import { AppDataSource } from '../src/data-source.js';
-import { CommentPost } from "../src/entity/Comment.js";
+import { AppDataSource } from '../src/data-source.ts';
+import { CommentPost } from "../src/entity/Comment.ts";
 
 describe('CommentController', () => {
   let token: string;
