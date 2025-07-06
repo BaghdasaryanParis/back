@@ -1,4 +1,4 @@
-name: try deploy on docker
+name: try deploy on dockera
 
 on:
   push:
